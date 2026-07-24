@@ -17,12 +17,12 @@ const categories: Category[] = [
   { name: '📦 Misc', slug: 'misc' },
 ];
 
-interface CategoriesProps {
+interface CateProps {
   selectedCategory: string;
   onSelectCategory: (slug: string) => void;
 }
 
-const Categories = ({ selectedCategory, onSelectCategory }: CategoriesProps) => {
+const Cate = ({ selectedCategory, onSelectCategory }: CateProps) => {
   return (
     <div className="flex flex-wrap justify-center gap-3 my-8">
       {categories.map((cat) => (
@@ -38,8 +38,8 @@ const Categories = ({ selectedCategory, onSelectCategory }: CategoriesProps) => 
           {cat.name}
         </button>
       ))}
-    </div> 
+    </div>
   );
 };
 
-export default Categories   ;
+export default Cate;

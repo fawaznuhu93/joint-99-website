@@ -1,5 +1,4 @@
 import { useState, useEffect } from 'react';
-import logo from '/logo.png';
 
 const Header = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -24,7 +23,7 @@ const Header = () => {
             <div className="relative">
               <div className="absolute -inset-1 bg-gradient-to-r from-green-400 to-green-600 rounded-full blur opacity-70 group-hover:opacity-100 transition duration-300"></div>
               <img 
-                src={logo} 
+                src="/logo.png" 
                 alt="Joint 99 Logo" 
                 className="relative h-14 w-auto rounded-full ring-2 ring-white shadow-xl" 
               />

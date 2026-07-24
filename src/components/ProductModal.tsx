@@ -1,4 +1,4 @@
-import { Fragment, useEffect } from 'react';
+import { useEffect } from 'react';
 import { Product } from '../types';
 import EmailOrderForm from './EmailOrderForm';
 
@@ -31,7 +31,6 @@ const ProductModal = ({ isOpen, onClose, product }: ProductModalProps) => {
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/60 backdrop-blur-sm animate-fadeIn">
       <div className="bg-white rounded-3xl max-w-md w-full p-8 shadow-2xl transform animate-scaleIn relative">
-        {/* Close Button */}
         <button
           onClick={onClose}
           className="absolute top-4 right-4 w-10 h-10 bg-gray-100 hover:bg-gray-200 rounded-full flex items-center justify-center transition-all duration-300 hover:rotate-90"

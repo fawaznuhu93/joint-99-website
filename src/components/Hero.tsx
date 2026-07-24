@@ -103,7 +103,7 @@ const Hero = () => {
             {[
               { number: '500+', label: 'Products' },
               { number: '1000+', label: 'Happy Customers' },
-              { number: '10+', label: 'Years Experience' },
+              { number: '20+', label: 'Years Experience' },
               { number: '4.9', label: 'Rating' },
             ].map((stat, index) => (
               <div key={index} className="bg-white/10 backdrop-blur-sm rounded-2xl p-4 border border-white/20 transform hover:scale-105 transition-all duration-300">

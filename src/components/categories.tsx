@@ -38,7 +38,7 @@ const Categories = ({ selectedCategory, onSelectCategory }: CategoriesProps) => 
           {cat.name}
         </button>
       ))}
-    </div>
+    </div> 
   );
 };
 

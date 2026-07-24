@@ -42,4 +42,4 @@ const Categories = ({ selectedCategory, onSelectCategory }: CategoriesProps) => 
   );
 };
 
-export default Categories;
+export default Categories   ;

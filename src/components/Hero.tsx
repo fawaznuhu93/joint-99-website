@@ -31,7 +31,7 @@ const Hero = () => {
           backgroundImage: `radial-gradient(circle at 20% 50%, rgba(255,255,255,0.1) 0%, transparent 50%), 
                            radial-gradient(circle at 80% 50%, rgba(255,255,255,0.1) 0%, transparent 50%)`,
           backgroundSize: '100% 100%'
-        }}></div>
+        }}></div> 
         
         {/* Floating Animated Shapes */}
         <div className="absolute inset-0 overflow-hidden">
@@ -111,7 +111,7 @@ const Hero = () => {
                 <div className="text-sm text-white/70">{stat.label}</div>
               </div>
             ))}
-          </div>
+          </div> 
         </div>
       </div>
 

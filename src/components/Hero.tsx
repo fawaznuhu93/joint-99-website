@@ -26,20 +26,17 @@ const Hero = () => {
     <section className="relative min-h-screen flex items-center overflow-hidden">
       {/* Animated Background */}
       <div className="absolute inset-0 bg-gradient-to-br from-green-900 via-green-700 to-green-500">
-        {/* Pattern Overlay - Simplified */}
         <div className="absolute inset-0 opacity-10" style={{
           backgroundImage: `radial-gradient(circle at 20% 50%, rgba(255,255,255,0.1) 0%, transparent 50%), 
                            radial-gradient(circle at 80% 50%, rgba(255,255,255,0.1) 0%, transparent 50%)`,
           backgroundSize: '100% 100%'
-        }}></div> 
+        }}></div>
         
-        {/* Floating Animated Shapes */}
         <div className="absolute inset-0 overflow-hidden">
           <div className="absolute -top-20 -right-20 w-96 h-96 bg-white/10 rounded-full blur-3xl animate-pulse"></div>
           <div className="absolute -bottom-20 -left-20 w-96 h-96 bg-yellow-400/10 rounded-full blur-3xl animate-pulse delay-1000"></div>
           <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-green-400/10 rounded-full blur-3xl animate-pulse delay-2000"></div>
           
-          {/* Decorative Grid Pattern */}
           <div className="absolute inset-0" style={{
             backgroundImage: `linear-gradient(rgba(255,255,255,0.03) 1px, transparent 1px),
                               linear-gradient(90deg, rgba(255,255,255,0.03) 1px, transparent 1px)`,
@@ -68,12 +65,19 @@ const Hero = () => {
             </span>
           </h1>
 
+          {/* Catchphrase */}
+          <div className="max-w-3xl mx-auto mb-6">
+            <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-yellow-300 mb-3 tracking-wide">
+              99% of Your Needs, All in One Place.
+            </h2>
+            <div className="w-24 h-1 bg-gradient-to-r from-yellow-300 to-green-300 mx-auto rounded-full mb-6"></div>
+          </div>
+
           {/* Subtitle */}
           <div className="max-w-3xl mx-auto">
             <p className="text-xl md:text-2xl text-white/90 font-light mb-4 tracking-wide">
               PROVISIONS · FOODSTUFFS · DAILY ACCESSORIES
             </p>
-            <div className="w-24 h-1 bg-gradient-to-r from-yellow-300 to-green-300 mx-auto rounded-full mb-6"></div>
             <p className="text-lg md:text-xl text-white/80 font-light italic">
               "Quality You Can Trust, Service You Deserve."
             </p>
@@ -94,7 +98,7 @@ const Hero = () => {
               href="#about"
               className="px-8 py-4 bg-white/10 backdrop-blur-sm border-2 border-white/30 text-white font-bold rounded-full hover:bg-white/20 transform hover:scale-105 transition-all duration-300"
             >
-              Meet Our Team
+              Meet Our Founder
             </a>
           </div>
 
@@ -111,7 +115,7 @@ const Hero = () => {
                 <div className="text-sm text-white/70">{stat.label}</div>
               </div>
             ))}
-          </div> 
+          </div>
         </div>
       </div>
 

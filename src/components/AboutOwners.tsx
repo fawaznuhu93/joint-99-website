@@ -29,13 +29,13 @@ const AboutOwners = () => {
           <div className="text-center mb-16">
             <span className="text-sm font-semibold text-green-600 tracking-wider uppercase">Leadership</span>
             <h2 className="text-4xl md:text-5xl font-bold text-gray-800 mt-2">
-              Meet Our <span className="text-transparent bg-clip-text bg-gradient-to-r from-green-500 to-green-700">Team</span>
+              Meet Our <span className="text-transparent bg-clip-text bg-gradient-to-r from-green-500 to-green-700">Founder</span>
             </h2>
             <div className="w-24 h-1 bg-gradient-to-r from-green-400 to-green-600 mx-auto mt-4 rounded-full"></div>
           </div>
 
-          <div className="grid md:grid-cols-2 gap-8 lg:gap-12">
-            {/* CEO */}
+          {/* CEO Only - Centered */}
+          <div className="max-w-md mx-auto">
             <div className="group relative bg-white rounded-3xl shadow-xl hover:shadow-3xl transition-all duration-500 overflow-hidden transform hover:-translate-y-2">
               <div className="absolute inset-0 bg-gradient-to-br from-green-500/10 to-green-700/10 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
               <div className="relative p-8 text-center">
@@ -55,30 +55,6 @@ const AboutOwners = () => {
                 </div>
                 <p className="text-gray-600 mt-4 leading-relaxed">
                   With over a decade of experience in retail and community commerce, Mrs. Umu built Joint 99 on the principles of integrity, quality, and customer satisfaction.
-                </p>
-              </div>
-            </div>
-
-            {/* COO - Updated Description */}
-            <div className="group relative bg-white rounded-3xl shadow-xl hover:shadow-3xl transition-all duration-500 overflow-hidden transform hover:-translate-y-2">
-              <div className="absolute inset-0 bg-gradient-to-br from-blue-500/10 to-blue-700/10 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
-              <div className="relative p-8 text-center">
-                <div className="relative w-40 h-40 mx-auto mb-6">
-                  <div className="absolute inset-0 bg-gradient-to-r from-blue-400 to-blue-600 rounded-full blur opacity-75 group-hover:opacity-100 transition duration-500"></div>
-                  <img
-                    src="/coo.jpg"
-                    alt="Engr. Nuhu Yusuf"
-                    className="relative w-40 h-40 rounded-full object-cover border-4 border-white shadow-xl"
-                  />
-                </div>
-                <h3 className="text-2xl font-bold text-gray-800">Engr. Nuhu Yusuf</h3>
-                <p className="text-blue-600 font-semibold mt-1">COO, Joint 99</p>
-                <div className="flex justify-center gap-2 mt-2">
-                  <span className="px-3 py-1 bg-blue-100 text-blue-700 text-xs rounded-full">Expert</span>
-                  <span className="px-3 py-1 bg-purple-100 text-purple-700 text-xs rounded-full">Engineer</span>
-                </div>
-                <p className="text-gray-600 mt-4 leading-relaxed">
-                  Former Head of Operations / General Manager at <strong className="text-blue-700">Ajaokuta Steel Company Limited</strong>.
                 </p>
               </div>
             </div>
